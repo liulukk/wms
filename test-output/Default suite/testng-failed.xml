@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.webtest.testCases.LoginTest">
+        <methods>
+          <include name="test_Unit_delete"/>
+          <include name="test_productCategory_update" invocation-numbers="0"/>
+          <include name="test_companyManagent_add" invocation-numbers="0"/>
+          <include name="test_companyManagent_search" invocation-numbers="0"/>
+          <include name="test_productCategory_add" invocation-numbers="0"/>
+          <include name="test_Unit_add" invocation-numbers="0"/>
+          <include name="test_productCategory_search" invocation-numbers="0"/>
+          <include name="test_shelvesManagent_add" invocation-numbers="0"/>
+          <include name="test_Unit_search" invocation-numbers="0"/>
+          <include name="test_companyManagent_update" invocation-numbers="0"/>
+          <include name="test_productCategory_delete"/>
+          <include name="test_companyManagent_delete"/>
+          <include name="test_productManagement_delete"/>
+          <include name="test_shelvesManagent_delete"/>
+          <include name="test_warehourse_update" invocation-numbers="0"/>
+          <include name="test_productManagement_search" invocation-numbers="0"/>
+          <include name="test_Unit_alert" invocation-numbers="0"/>
+          <include name="test_productManagement_add" invocation-numbers="0"/>
+          <include name="test_productManagement_update" invocation-numbers="0"/>
+          <include name="test_shelvesManagent_update" invocation-numbers="0"/>
+          <include name="doBeforeClass"/>
+          <include name="test_Suppliers_delete"/>
+          <include name="test_shelvesManagent_search" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.webtest.testCases.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
