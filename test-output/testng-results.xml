@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="22" ignored="0" total="33" passed="11">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="104778" started-at="2022-04-12T14:41:28Z" finished-at="2022-04-12T14:43:13Z">
+  <suite name="Default suite" duration-ms="49785" started-at="2022-05-02T13:46:21Z" finished-at="2022-05-02T13:47:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="104778" started-at="2022-04-12T14:41:28Z" finished-at="2022-04-12T14:43:13Z">
+    <test name="Default test" duration-ms="49785" started-at="2022-05-02T13:46:21Z" finished-at="2022-05-02T13:47:11Z">
       <class name="com.webtest.testCases.LoginTest">
-        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.testCases.LoginTest@68c4039c]" name="doBeforeClass" is-config="true" duration-ms="5673" started-at="2022-04-12T22:41:28Z" finished-at="2022-04-12T22:41:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doBeforeClass -->
-        <test-method status="PASS" signature="test_login()[pri:1, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_login" duration-ms="10786" started-at="2022-04-12T22:41:34Z" finished-at="2022-04-12T22:41:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_login -->
-        <test-method status="PASS" signature="test_warehourse_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_warehourse_search" duration-ms="8332" started-at="2022-04-12T22:41:45Z" data-provider="warehourse_search" finished-at="2022-04-12T22:41:53Z">
+        <test-method status="PASS" signature="addListener(org.testng.ITestContext)[pri:0, instance:com.webtest.testCases.LoginTest@ae45eb6]" name="addListener" is-config="true" duration-ms="9" started-at="2022-05-02T21:46:21Z" description="æ·»å çå¬å¨" finished-at="2022-05-02T21:46:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[仓库]]>
+                <![CDATA[org.testng.TestRunner@54ec8cc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addListener -->
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.testCases.LoginTest@ae45eb6]" name="doBeforeClass" is-config="true" duration-ms="6904" started-at="2022-05-02T21:46:21Z" finished-at="2022-05-02T21:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="test_login()[pri:1, instance:com.webtest.testCases.LoginTest@ae45eb6]" name="test_login" duration-ms="13499" started-at="2022-05-02T21:46:28Z" finished-at="2022-05-02T21:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="test_warehourse_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.webtest.testCases.LoginTest@ae45eb6]" name="test_warehourse_search" duration-ms="8528" started-at="2022-05-02T21:46:42Z" data-provider="warehourse_search" finished-at="2022-05-02T21:46:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
               </value>
             </param>
             <param index="1">
@@ -41,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_warehourse_search -->
-        <test-method status="PASS" signature="test_warehourse_add(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_warehourse_add" duration-ms="7168" started-at="2022-04-12T22:41:53Z" data-provider="warehourse_add" finished-at="2022-04-12T22:42:00Z">
+        <test-method status="PASS" signature="test_warehourse_add(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.webtest.testCases.LoginTest@ae45eb6]" name="test_warehourse_add" duration-ms="7151" started-at="2022-05-02T21:46:50Z" data-provider="warehourse_add" finished-at="2022-05-02T21:46:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[秦皇岛仓库]]>
+                <![CDATA[newwarehourse]]>
               </value>
             </param>
             <param index="1">
@@ -60,23 +71,23 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[新建了一个亲环岛仓库]]>
+                <![CDATA[new warehourse]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_warehourse_add -->
-        <test-method status="FAIL" signature="test_warehourse_update(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_warehourse_update" duration-ms="4025" started-at="2022-04-12T22:42:00Z" data-provider="warehourse_update" finished-at="2022-04-12T22:42:04Z">
+        <test-method status="PASS" signature="test_warehourse_update(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:com.webtest.testCases.LoginTest@ae45eb6]" name="test_warehourse_update" duration-ms="8150" started-at="2022-05-02T21:46:57Z" data-provider="warehourse_update" finished-at="2022-05-02T21:47:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[华北1仓库]]>
+                <![CDATA[nwarehourse]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[测试]]>
+                <![CDATA[test]]>
               </value>
             </param>
             <param index="2">
@@ -86,622 +97,21 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[update了一个华北仓库]]>
+                <![CDATA[更新更新]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IndexOutOfBoundsException">
-            <message>
-              <![CDATA[Index: 1, Size: 1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 1, Size: 1at java.util.ArrayList.rangeCheck(Unknown Source)at java.util.ArrayList.get(Unknown Source)at com.webtest.testCases.LoginTest.test_warehourse_update(LoginTest.java:155)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_warehourse_update -->
-        <test-method status="PASS" signature="test_delete_success()[pri:12, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_delete_success" duration-ms="2098" started-at="2022-04-12T22:42:04Z" finished-at="2022-04-12T22:42:06Z">
+        <test-method status="PASS" signature="test_delete_success()[pri:12, instance:com.webtest.testCases.LoginTest@ae45eb6]" name="test_delete_success" duration-ms="4140" started-at="2022-05-02T21:47:06Z" finished-at="2022-05-02T21:47:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_delete_success -->
-        <test-method status="PASS" signature="test_storageSpace_search(java.lang.String, java.lang.String)[pri:13, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_storageSpace_search" duration-ms="6902" started-at="2022-04-12T22:42:06Z" data-provider="strongeSpace_search" finished-at="2022-04-12T22:42:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[区]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.testCases.LoginTest@ae45eb6]" name="doAfterMethod" is-config="true" duration-ms="1376" started-at="2022-05-02T21:47:10Z" finished-at="2022-05-02T21:47:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_storageSpace_search -->
-        <test-method status="PASS" signature="test_storageSpace_add(java.lang.String, java.lang.String)[pri:14, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_storageSpace_add" duration-ms="7988" started-at="2022-04-12T22:42:13Z" data-provider="strongeSpace_add" finished-at="2022-04-12T22:42:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[C区]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[测试_新增c区]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_storageSpace_add -->
-        <test-method status="PASS" signature="test_strongSpace_update(java.lang.String, java.lang.String)[pri:15, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_strongSpace_update" duration-ms="9922" started-at="2022-04-12T22:42:21Z" data-provider="strongeSpace_update" finished-at="2022-04-12T22:42:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[C区]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[测试_updatec区]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_strongSpace_update -->
-        <test-method status="PASS" signature="test_strongSpace_delete()[pri:16, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_strongSpace_delete" duration-ms="2094" started-at="2022-04-12T22:42:31Z" finished-at="2022-04-12T22:42:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_strongSpace_delete -->
-        <test-method status="PASS" signature="test_Suppliers_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_Suppliers_search" duration-ms="9021" started-at="2022-04-12T22:42:33Z" data-provider="Suppliers_search" finished-at="2022-04-12T22:42:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[公司]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Suppliers_search -->
-        <test-method status="PASS" signature="test_Suppliers_add(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:18, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_Suppliers_add" duration-ms="10389" started-at="2022-04-12T22:42:42Z" data-provider="Suppliers_add" finished-at="2022-04-12T22:42:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[添加供应商公司]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[添加供应商地址test]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[添加供应商联系人test]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[111111]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[123@qq.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[传真]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[beizhu]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Suppliers_add -->
-        <test-method status="PASS" signature="test_Suppliers_update(java.lang.String)[pri:19, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_Suppliers_update" duration-ms="5704" started-at="2022-04-12T22:42:53Z" data-provider="Suppliers_update" finished-at="2022-04-12T22:42:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[desc]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Suppliers_update -->
-        <test-method status="FAIL" signature="test_Suppliers_delete()[pri:20, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_Suppliers_delete" duration-ms="15" started-at="2022-04-12T22:42:58Z" finished-at="2022-04-12T22:42:58Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_Suppliers_delete(LoginTest.java:363)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Suppliers_delete -->
-        <test-method status="FAIL" signature="test_Unit_search(java.lang.String, java.lang.String)[pri:21, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_Unit_search" duration-ms="3074" started-at="2022-04-12T22:42:58Z" data-provider="unit_search" finished-at="2022-04-12T22:43:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_Unit_search(LoginTest.java:380)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Unit_search -->
-        <test-method status="FAIL" signature="test_Unit_add(java.lang.String, java.lang.String)[pri:22, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_Unit_add" duration-ms="12" started-at="2022-04-12T22:43:01Z" data-provider="unit_add" finished-at="2022-04-12T22:43:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[新增桶]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[新增]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_Unit_add(LoginTest.java:385)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Unit_add -->
-        <test-method status="FAIL" signature="test_Unit_alert(java.lang.String)[pri:23, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_Unit_alert" duration-ms="15" started-at="2022-04-12T22:43:01Z" data-provider="unit_update" finished-at="2022-04-12T22:43:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[desc]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_Unit_alert(LoginTest.java:400)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Unit_alert -->
-        <test-method status="FAIL" signature="test_Unit_delete()[pri:24, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_Unit_delete" duration-ms="14" started-at="2022-04-12T22:43:02Z" finished-at="2022-04-12T22:43:02Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_Unit_delete(LoginTest.java:417)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Unit_delete -->
-        <test-method status="FAIL" signature="test_productCategory_search(java.lang.String, java.lang.String)[pri:25, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_productCategory_search" duration-ms="3068" started-at="2022-04-12T22:43:02Z" data-provider="Category_search" finished-at="2022-04-12T22:43:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[机]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_productCategory_search(LoginTest.java:435)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_productCategory_search -->
-        <test-method status="FAIL" signature="test_productCategory_add(java.lang.String, java.lang.String)[pri:26, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_productCategory_add" duration-ms="13" started-at="2022-04-12T22:43:05Z" data-provider="Category_add" finished-at="2022-04-12T22:43:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[手_机]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[新增产品类别手机]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_productCategory_add(LoginTest.java:443)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_productCategory_add -->
-        <test-method status="FAIL" signature="test_productCategory_update(java.lang.String)[pri:27, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_productCategory_update" duration-ms="15" started-at="2022-04-12T22:43:05Z" data-provider="Category_update" finished-at="2022-04-12T22:43:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[update]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_productCategory_update(LoginTest.java:457)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_productCategory_update -->
-        <test-method status="FAIL" signature="test_productCategory_delete()[pri:28, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_productCategory_delete" duration-ms="14" started-at="2022-04-12T22:43:05Z" finished-at="2022-04-12T22:43:05Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_productCategory_delete(LoginTest.java:471)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_productCategory_delete -->
-        <test-method status="FAIL" signature="test_productManagement_search(java.lang.String, java.lang.String)[pri:29, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_productManagement_search" duration-ms="3065" started-at="2022-04-12T22:43:05Z" data-provider="Management_search" finished-at="2022-04-12T22:43:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_productManagement_search(LoginTest.java:488)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_productManagement_search -->
-        <test-method status="FAIL" signature="test_productManagement_add(java.lang.String, java.lang.String)[pri:30, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_productManagement_add" duration-ms="14" started-at="2022-04-12T22:43:08Z" data-provider="Management_add" finished-at="2022-04-12T22:43:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[new]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_productManagement_add(LoginTest.java:496)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_productManagement_add -->
-        <test-method status="FAIL" signature="test_productManagement_update(java.lang.String)[pri:31, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_productManagement_update" duration-ms="13" started-at="2022-04-12T22:43:08Z" data-provider="Management_update" finished-at="2022-04-12T22:43:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[update]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_productManagement_update(LoginTest.java:511)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_productManagement_update -->
-        <test-method status="FAIL" signature="test_productManagement_delete()[pri:32, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_productManagement_delete" duration-ms="15" started-at="2022-04-12T22:43:08Z" finished-at="2022-04-12T22:43:08Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_productManagement_delete(LoginTest.java:525)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_productManagement_delete -->
-        <test-method status="FAIL" signature="test_companyManagent_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:33, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_companyManagent_search" duration-ms="3104" started-at="2022-04-12T22:43:08Z" data-provider="companyManagent_search" finished-at="2022-04-12T22:43:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[公司]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_companyManagent_search(LoginTest.java:545)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_companyManagent_search -->
-        <test-method status="FAIL" signature="test_companyManagent_add(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:34, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_companyManagent_add" duration-ms="14" started-at="2022-04-12T22:43:11Z" data-provider="companyManagent_add" finished-at="2022-04-12T22:43:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[新建测试公司]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[14513378193]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[870461498@qq.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[河北]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_companyManagent_add(LoginTest.java:553)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_companyManagent_add -->
-        <test-method status="FAIL" signature="test_companyManagent_update(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:35, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_companyManagent_update" duration-ms="13" started-at="2022-04-12T22:43:11Z" data-provider="companyManagent_update" finished-at="2022-04-12T22:43:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[新建1测试公司]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[14513378193]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[870461498@qq.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[河北baoding]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[desc]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_companyManagent_update(LoginTest.java:579)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_companyManagent_update -->
-        <test-method status="FAIL" signature="test_companyManagent_delete()[pri:36, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_companyManagent_delete" duration-ms="14" started-at="2022-04-12T22:43:11Z" finished-at="2022-04-12T22:43:11Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_companyManagent_delete(LoginTest.java:601)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_companyManagent_delete -->
-        <test-method status="FAIL" signature="test_shelvesManagent_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:37, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_shelvesManagent_search" duration-ms="2063" started-at="2022-04-12T22:43:11Z" data-provider="shelvesManagent_search" finished-at="2022-04-12T22:43:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_shelvesManagent_search(LoginTest.java:622)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_shelvesManagent_search -->
-        <test-method status="FAIL" signature="test_shelvesManagent_add(java.lang.String, java.lang.String)[pri:38, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_shelvesManagent_add" duration-ms="14" started-at="2022-04-12T22:43:13Z" data-provider="shelvesManagent_add" finished-at="2022-04-12T22:43:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CA1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[desc]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=tag name, value=button}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:400)at org.openqa.selenium.By$ByTagName.findElements(By.java:312)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_shelvesManagent_add(LoginTest.java:630)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_shelvesManagent_add -->
-        <test-method status="FAIL" signature="test_shelvesManagent_update(java.lang.String, java.lang.String)[pri:39, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_shelvesManagent_update" duration-ms="15" started-at="2022-04-12T22:43:13Z" data-provider="shelvesManagent_update" finished-at="2022-04-12T22:43:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CA1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[update]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@href='javascript:;']}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_shelvesManagent_update(LoginTest.java:649)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_shelvesManagent_update -->
-        <test-method status="FAIL" signature="test_shelvesManagent_delete()[pri:40, instance:com.webtest.testCases.LoginTest@68c4039c]" name="test_shelvesManagent_delete" duration-ms="15" started-at="2022-04-12T22:43:13Z" finished-at="2022-04-12T22:43:13Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connectionBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'System info: host: 'LAPTOP-0356DV5C', ip: '192.168.147.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23392, moz:profile: C:\Users\87046\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: ced92d3f-ff2f-459d-bdfd-e4a43230c863*** Element info: {Using=xpath, value=//a[@ref='javascript:;']}at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)at org.openqa.selenium.By$ByXPath.findElements(By.java:348)at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)at com.webtest.testCases.LoginTest.test_shelvesManagent_delete(LoginTest.java:667)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_shelvesManagent_delete -->
+        </test-method> <!-- doAfterMethod -->
       </class> <!-- com.webtest.testCases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

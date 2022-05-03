@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="s1" duration-ms="47214" started-at="2022-05-02T20:50:42 CST" finished-at="2022-05-02T20:51:29 CST">
+    <groups>
+    </groups>
+    <test name="t2" duration-ms="47214" started-at="2022-05-02T20:50:42 CST" finished-at="2022-05-02T20:51:29 CST">
+      <class name="com.webtest.testCases.LoginTest">
+        <test-method status="PASS" signature="addListener(org.testng.ITestContext)[pri:0, instance:com.webtest.testCases.LoginTest@1810399e]" name="addListener" is-config="true" duration-ms="12" started-at="2022-05-02T20:50:42 CST" description="æ·»å çå¬å¨" finished-at="2022-05-02T20:50:42 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d8305c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addListener -->
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.testCases.LoginTest@1810399e]" name="doBeforeClass" is-config="true" duration-ms="5175" started-at="2022-05-02T20:50:42 CST" finished-at="2022-05-02T20:50:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="test_login()[pri:1, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_login" duration-ms="13029" started-at="2022-05-02T20:50:47 CST" finished-at="2022-05-02T20:51:00 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="test_warehourse_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_warehourse_search" duration-ms="8246" started-at="2022-05-02T20:51:00 CST" data-provider="warehourse_search" finished-at="2022-05-02T20:51:08 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_warehourse_search -->
+        <test-method status="PASS" signature="test_warehourse_add(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_warehourse_add" duration-ms="7180" started-at="2022-05-02T20:51:08 CST" data-provider="warehourse_add" finished-at="2022-05-02T20:51:16 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newwarehourse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[liulu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[new warehourse]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_warehourse_add -->
+        <test-method status="PASS" signature="test_warehourse_update(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_warehourse_update" duration-ms="8163" started-at="2022-05-02T20:51:16 CST" data-provider="warehourse_update" finished-at="2022-05-02T20:51:24 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nwarehourse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15052850085]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[鏇存柊鏇存柊]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_warehourse_update -->
+        <test-method status="PASS" signature="test_delete_success()[pri:12, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_delete_success" duration-ms="4101" started-at="2022-05-02T20:51:24 CST" finished-at="2022-05-02T20:51:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_success -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.testCases.LoginTest@1810399e]" name="doAfterMethod" is-config="true" duration-ms="1287" started-at="2022-05-02T20:51:28 CST" finished-at="2022-05-02T20:51:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.testCases.LoginTest -->
+    </test> <!-- t2 -->
+  </suite> <!-- s1 -->
+</testng-results>

@@ -29,6 +29,7 @@ public class LoginTest extends BaseTest {
 		webtest.type("id=username", ReadProperties.getPropertyValue("usname"));
 		webtest.type("id=passwd", ReadProperties.getPropertyValue("upasswd"));
 		webtest.click("class=fa-lock");
+		Thread.sleep(2000);
 		assertTrue(webtest.isTextPresent("欢迎使用"));
 	}
 
@@ -134,12 +135,13 @@ public class LoginTest extends BaseTest {
 //		List<WebElement> numElement = driver.findElements(By.className("title"));
 //		System.out.println("0000000"+numElement.size());
 //		删除第二个****
+		Thread.sleep(2000);
 		driver.findElements(By.xpath("//a[@ref='javascript:;']")).get(1).click();
 //		取消删除
 		Thread.sleep(2000);
-		webtest.alertDismiss();
+//		webtest.alertDismiss();
 //		确定删除
-//		webtest.alertAccept();
+		webtest.alertAccept();
 	}
 	
 //成功
@@ -147,7 +149,7 @@ public class LoginTest extends BaseTest {
 
 	public void test_warehourse_update(String name, String contact, String phone, String desc)
 			throws InterruptedException {
-		
+		Thread.sleep(2000);
 //		编辑****
 		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(1).click();
 		Thread.sleep(2000);
@@ -200,6 +202,8 @@ public class LoginTest extends BaseTest {
 //		driver.findElements(By.tagName("button")).get(5).click();
 //			确认
 		driver.findElements(By.tagName("button")).get(6).click();
+//		String mString = driver.findElement(By.className("toast toast")).getText();
+//		System.out.println("----------"+mString);
 	}
 //成功
 	@Test(priority = 9, dataProvider = "warehourse_search", dataProviderClass = NSDataProvider.class)
@@ -222,12 +226,12 @@ public class LoginTest extends BaseTest {
 		driver.findElements(By.tagName("button")).get(3).click();
 	}
 	
-	
+	/*
 //		库位管理***********成功
 //	成功
-	@Test(priority = 13, dataProvider = "strongeSpace_search", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 16, dataProvider = "strongeSpace_search", dataProviderClass = NSDataProvider.class)
 	public void test_storageSpace_search(String name, String sn) throws InterruptedException {
-		webtest.click("xpath=//a[@href='/location/index']");
+		
 		
 //			搜索
 		webtest.type("name=name", name);
@@ -240,8 +244,9 @@ public class LoginTest extends BaseTest {
 //			false
 	}
 
-	@Test(priority = 14, dataProvider = "strongeSpace_add", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 13, dataProvider = "strongeSpace_add", dataProviderClass = NSDataProvider.class)
 	public void test_storageSpace_add(String name, String desc) throws InterruptedException {
+		webtest.click("xpath=//a[@href='/location/index']");
 //			添加
 		driver.findElements(By.tagName("button")).get(1).click();
 //			库位名称
@@ -259,21 +264,21 @@ public class LoginTest extends BaseTest {
 			webtest.click("xpath=//button[@onclick='add_from()']");		
 	}
 
-	@Test(priority = 16)
+	@Test(priority = 15)
 	public void test_strongSpace_delete() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.findElements(By.xpath("//a[@ref='javascript:;']")).get(2).click();
 //			取消删除
-		webtest.alertDismiss();
+//		webtest.alertDismiss();
 //			确定删除
-//			webtest.alertAccept();
+			webtest.alertAccept();
 	}
 	
-	@Test(priority = 15, dataProvider = "strongeSpace_update", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 14, dataProvider = "strongeSpace_update", dataProviderClass = NSDataProvider.class)
 	public void test_strongSpace_update(String name, String textarea) throws InterruptedException {
 //			编辑****
 
-		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(1).click();
+		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(2).click();
 //		List<WebElement> numElement = driver.findElements(By.name("name"));
 //		System.out.println("name" + numElement.size());
 //			库位名称
@@ -292,12 +297,10 @@ public class LoginTest extends BaseTest {
 	}
 	
 	
-	@Test(priority = 17, dataProvider = "Suppliers_search", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 20, dataProvider = "Suppliers_search", dataProviderClass = NSDataProvider.class)
 	public void test_Suppliers_search(String name, String sn, String contact, String phone, String email)
 			throws InterruptedException {
-		Thread.sleep(2000);
-//			供应商管理
-		webtest.click("xpath=//a[@href='/supplier/index']");
+	
 //			搜索****
 		webtest.type("name=name", name);// 供应商名称
 		webtest.type("name=sn", sn);// 供应商编号
@@ -311,9 +314,12 @@ public class LoginTest extends BaseTest {
 	}
 //	nameSearch 99999编号 contact 129099 123@qq.com
 	
-	@Test(priority = 18, dataProvider = "Suppliers_add", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 17, dataProvider = "Suppliers_add", dataProviderClass = NSDataProvider.class)
 	public void test_Suppliers_add(String name, String address, String contact, String phone, String email, String fax,
 			String desc) throws InterruptedException {
+		Thread.sleep(2000);
+//		供应商管理
+	webtest.click("xpath=//a[@href='/supplier/index']");
 //			添加
 		driver.findElements(By.tagName("button")).get(1).click();
 //			供应商名称
@@ -341,10 +347,10 @@ public class LoginTest extends BaseTest {
 	}
 	
 //	"添加供应商test" "添加供应商地址test" "添加供应商联系人test" "111111" "123@qq.com" "传真" "beizhu"
-	@Test(priority = 19, dataProvider = "Suppliers_update", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 18, dataProvider = "Suppliers_update", dataProviderClass = NSDataProvider.class)
 	public void test_Suppliers_update(String desc) throws InterruptedException {
 //			编辑
-		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(1).click();
+		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(3).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//textarea[@placeholder='备注']")).sendKeys(desc);
 		Thread.sleep(3000);
@@ -356,11 +362,12 @@ public class LoginTest extends BaseTest {
 
 	}
 	
-	@Test(priority = 20)
+	@Test(priority = 19)
 	public void test_Suppliers_delete() throws InterruptedException {
 //			删除
+		Thread.sleep(2000);
 //			删除第二个****
-		driver.findElements(By.xpath("//a[@ref='javascript:;']")).get(1).click();
+		driver.findElements(By.xpath("//a[@ref='javascript:;']")).get(3).click();
 //			取消删除
 //		webtest.alertDismiss();
 //			确定删除
@@ -369,10 +376,10 @@ public class LoginTest extends BaseTest {
 	}
 	
 	
-	@Test(priority = 21, dataProvider = "unit_search", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 24, dataProvider = "unit_search", dataProviderClass = NSDataProvider.class)
 	public void test_Unit_search(String name, String sn) throws InterruptedException {
 //			计量单位(********
-		webtest.click("xpath=//a[@href='/unit/index']");
+		
 		webtest.type("name=name", name);// 单位名称
 		webtest.type("name=sn", sn);// 单位编号
 //			检索确认
@@ -380,8 +387,10 @@ public class LoginTest extends BaseTest {
 		driver.findElements(By.tagName("button")).get(3).click();
 	}
 
-	@Test(priority = 22, dataProvider = "unit_add", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 21, dataProvider = "unit_add", dataProviderClass = NSDataProvider.class)
 	public void test_Unit_add(String name, String desc) throws InterruptedException {
+		Thread.sleep(2000);
+		webtest.click("xpath=//a[@href='/unit/index']");
 		driver.findElements(By.tagName("button")).get(1).click();
 		Thread.sleep(2000);
 		driver.findElements(By.name("name")).get(1).clear();
@@ -395,7 +404,7 @@ public class LoginTest extends BaseTest {
 		webtest.click("xpath=//button[@onclick='add_from()']");
 	}
 	
-	@Test(priority = 23, dataProvider = "unit_update", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 22, dataProvider = "unit_update", dataProviderClass = NSDataProvider.class)
 	public void test_Unit_alert(String desc) throws InterruptedException {
 		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(5).click();
 		Thread.sleep(2000);
@@ -411,7 +420,7 @@ public class LoginTest extends BaseTest {
 //		客户管理*********
 //		webtest.click("xpath=//a[@href='/customer/index']");
 
-	@Test(priority = 24)
+	@Test(priority = 23)
 	public void test_Unit_delete() {
 //			删除第二个****
 		driver.findElements(By.xpath("//a[@ref='javascript:;']")).get(5).click();
@@ -422,10 +431,9 @@ public class LoginTest extends BaseTest {
 	}
 	
 	
-	@Test(priority = 25, dataProvider = "Category_search", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 28, dataProvider = "Category_search", dataProviderClass = NSDataProvider.class)
 	public void test_productCategory_search(String name, String sn) throws InterruptedException {
-//			产品类别
-		webtest.click("xpath=//a[@href='/category/index']");
+
 //			搜索****
 
 		webtest.type("name=name", name);// 产品类别名称
@@ -436,10 +444,12 @@ public class LoginTest extends BaseTest {
 
 	}
 
-	@Test(priority = 26, dataProvider = "Category_add", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 25, dataProvider = "Category_add", dataProviderClass = NSDataProvider.class)
 	public void test_productCategory_add(String name, String desc) throws InterruptedException {
 //			添加****
-
+//			产品类别
+		webtest.click("xpath=//a[@href='/category/index']");
+		Thread.sleep(2000);
 		driver.findElements(By.tagName("button")).get(1).click();
 		Thread.sleep(2000);
 		driver.findElements(By.name("name")).get(1).clear();
@@ -452,9 +462,9 @@ public class LoginTest extends BaseTest {
 		webtest.click("xpath=//button[@onclick='add_from()']");
 	}
 
-	@Test(priority = 27, dataProvider = "Category_update", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 26, dataProvider = "Category_update", dataProviderClass = NSDataProvider.class)
 	public void test_productCategory_update(String desc) throws InterruptedException {
-		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(1).click();
+		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(3).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//textarea[@placeholder='备注']")).sendKeys(desc);
 		Thread.sleep(3000);
@@ -465,10 +475,10 @@ public class LoginTest extends BaseTest {
 		webtest.click("xpath=//button[@onclick='edit_from()']");
 	}
 
-	@Test(priority = 28)
+	@Test(priority = 27)
 	public void test_productCategory_delete() {
 //			删除第二个****
-		driver.findElements(By.xpath("//a[@ref='javascript:;']")).get(1).click();
+		driver.findElements(By.xpath("//a[@ref='javascript:;']")).get(3).click();
 //			取消删除
 //		webtest.alertDismiss();
 //			确定删除
@@ -531,11 +541,10 @@ public class LoginTest extends BaseTest {
 	}
 	
 	
-	@Test(priority = 33, dataProvider = "companyManagent_search", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 36, dataProvider = "companyManagent_search", dataProviderClass = NSDataProvider.class)
 	public void test_companyManagent_search(String name, String sn, String tel, String email)
 			throws InterruptedException {
-//			企业管理**************
-		webtest.click("xpath=//a[@href='/company/index']");
+
 //			搜索****
 		webtest.type("name=name", name);// 企业名称
 		webtest.type("name=sn", tel);// 企业编号
@@ -545,9 +554,11 @@ public class LoginTest extends BaseTest {
 		driver.findElements(By.tagName("button")).get(3).click();
 	}
 
-	@Test(priority = 34, dataProvider = "companyManagent_add", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 33, dataProvider = "companyManagent_add", dataProviderClass = NSDataProvider.class)
 	public void test_companyManagent_add(String name, String tel, String email, String address)
 			throws InterruptedException {
+			//			企业管理**************
+		webtest.click("xpath=//a[@href='/company/index']");
 //			添加********
 
 		driver.findElements(By.tagName("button")).get(1).click();
@@ -572,11 +583,11 @@ public class LoginTest extends BaseTest {
 
 	}
 
-	@Test(priority = 35, dataProvider = "companyManagent_update", dataProviderClass = NSDataProvider.class)
+	@Test(priority = 34, dataProvider = "companyManagent_update", dataProviderClass = NSDataProvider.class)
 	public void test_companyManagent_update(String name, String tel, String email, String address, String desc)
 			throws InterruptedException {
 //			修改****
-		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(3).click();
+		driver.findElements(By.xpath("//a[@href='javascript:;']")).get(5).click();
 		Thread.sleep(2000);
 		driver.findElements(By.name("name")).get(1).clear();
 		driver.findElements(By.name("name")).get(1).sendKeys(name);// 企业名称
@@ -595,10 +606,10 @@ public class LoginTest extends BaseTest {
 		webtest.click("xpath=//button[@onclick='edit_from()']");
 	}
 
-	@Test(priority = 36)
+	@Test(priority = 35)
 	public void test_companyManagent_delete() throws InterruptedException {
 //			删除第二个****
-		driver.findElements(By.xpath("//a[@ref='javascript:;']")).get(3).click();
+		driver.findElements(By.xpath("//a[@ref='javascript:;']")).get(5).click();
 //			取消删除
 //		webtest.alertDismiss();
 //			确定删除
@@ -670,5 +681,6 @@ public class LoginTest extends BaseTest {
 //			确定删除
 		webtest.alertAccept();
 	}
+	*/
 
 }

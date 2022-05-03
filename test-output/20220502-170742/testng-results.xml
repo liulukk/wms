@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="s1" duration-ms="45515" started-at="2022-05-02T17:07:46 CST" finished-at="2022-05-02T17:08:31 CST">
+    <groups>
+    </groups>
+    <test name="t2" duration-ms="45515" started-at="2022-05-02T17:07:46 CST" finished-at="2022-05-02T17:08:31 CST">
+      <class name="com.webtest.testCases.LoginTest">
+        <test-method status="PASS" signature="addListener(org.testng.ITestContext)[pri:0, instance:com.webtest.testCases.LoginTest@1810399e]" name="addListener" is-config="true" duration-ms="11" started-at="2022-05-02T17:07:46 CST" description="æ·»å çå¬å¨" finished-at="2022-05-02T17:07:46 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1fcb4808]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addListener -->
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.testCases.LoginTest@1810399e]" name="doBeforeClass" is-config="true" duration-ms="5288" started-at="2022-05-02T17:07:46 CST" finished-at="2022-05-02T17:07:51 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="FAIL" signature="test_login()[pri:1, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_login" duration-ms="11032" started-at="2022-05-02T17:07:51 CST" finished-at="2022-05-02T17:08:02 CST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.webtest.testCases.LoginTest.test_login(LoginTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.TestNG.privateMain(TestNG.java:1336)
+at org.testng.TestNG.main(TestNG.java:1304)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="test_warehourse_search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_warehourse_search" duration-ms="8255" started-at="2022-05-02T17:08:02 CST" data-provider="warehourse_search" finished-at="2022-05-02T17:08:10 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_warehourse_search -->
+        <test-method status="PASS" signature="test_warehourse_add(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_warehourse_add" duration-ms="7332" started-at="2022-05-02T17:08:10 CST" data-provider="warehourse_add" finished-at="2022-05-02T17:08:18 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newwarehourse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[liulu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[new warehourse]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_warehourse_add -->
+        <test-method status="PASS" signature="test_warehourse_update(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_warehourse_update" duration-ms="8131" started-at="2022-05-02T17:08:18 CST" data-provider="warehourse_update" finished-at="2022-05-02T17:08:26 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nwarehourse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15052850085]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[update]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_warehourse_update -->
+        <test-method status="PASS" signature="test_delete_success()[pri:12, instance:com.webtest.testCases.LoginTest@1810399e]" name="test_delete_success" duration-ms="4101" started-at="2022-05-02T17:08:26 CST" finished-at="2022-05-02T17:08:30 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_success -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.testCases.LoginTest@1810399e]" name="doAfterMethod" is-config="true" duration-ms="1340" started-at="2022-05-02T17:08:30 CST" finished-at="2022-05-02T17:08:31 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.testCases.LoginTest -->
+    </test> <!-- t2 -->
+  </suite> <!-- s1 -->
+</testng-results>

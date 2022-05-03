@@ -34,7 +34,7 @@ public class Generate implements IReporter{
 
 	private String getHtmlByPageName(String pageName) throws IOException {
 	    // /BOOT-INF/classes/templates/dashboard.html
-	    String path = "D:\\java\\project1\\reports\\" + pageName + ".html";
+	    String path = "D:\\java\\wms\\target\\" + pageName + ".html";
 	    // 返回读取指定资源的输入流
 //	    InputStream is = this.getClass().getResourceAsStream(path);
 	    FileInputStream is=new FileInputStream(path);

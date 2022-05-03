@@ -1,2 +1,2 @@
 name	desc
-手_机	新增产品类别手机
+phone	new_phone

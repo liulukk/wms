@@ -78,20 +78,20 @@ public class BaseTest {
 	}
 
 
-//	@AfterClass
-//	public void doAfterMethod() {
-//		if(this.driver != null){
-//			this.driver.quit();
-//			}
-//		Log.info("Quitted Browser");
-//	}
-//	
-//	public WebDriver getDriver() {
-//        return driver;
-//    }
-//	@BeforeSuite(description="添加监听器")
-//	public void addListener(ITestContext context) {
-//		TestRunner runner=(TestRunner)context;
-//		runner.addListener(new com.webtest.freemarker.GenerateReporter());
-//	}
+	@AfterClass
+	public void doAfterMethod() {
+		if(this.driver != null){
+			this.driver.quit();
+			}
+		Log.info("Quitted Browser");
+	}
+	
+	public WebDriver getDriver() {
+        return driver;
+    }
+	@BeforeSuite(description="添加监听器")
+	public void addListener(ITestContext context) {
+		TestRunner runner=(TestRunner)context;
+		runner.addListener(new com.webtest.freemarker.GenerateReporter());
+	}
 }

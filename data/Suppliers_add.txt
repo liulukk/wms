@@ -1,2 +1,2 @@
 name	address	contact	phone	email	fax	desc
-添加供应商公司	添加供应商地址test	添加供应商联系人test	111111	123@qq.com	传真	beizhu
+add_company	addresstest	addcontact_test	111111	123@qq.com	chuanzhen	beizhu

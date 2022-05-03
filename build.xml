@@ -23,14 +23,17 @@
         <pathelement location="./src" />
     </path>
  
-    <target name="clean">
+    <!--<target name="clean">
         <delete dir="${bin}" failonerror="No" />
         <mkdir dir="${bin}" />
-    </target>
+    </target>-->
  
-    <target depends="clean" name="build">
-        <javac encoding="iso-8859-1" srcdir="${src}" debug="true" sourcepathref="sourcepath" debuglevel="${debuglevel}" destdir="${bin}">
- 
+    <target  name="build">
+        <javac encoding="utf-8" srcdir="${src}" debug="true" 
+        	sourcepathref="sourcepath" 
+        	debuglevel="${debuglevel}" destdir="${bin}"
+        	includeAntRuntime="false"
+        	>
             <classpath refid="classpath" />
  
         </javac>
@@ -44,15 +47,15 @@
                 <include name="testng.xml" />
             </xmlfileset>
         </testng>
- 
+ <!--
         <xslt in="${report}/${nowstamp}/testng-results.xml" style="${report}/testng-results.xsl" out="${report}/reports/index1.html">
  
-            <!-- you need to specify the directory here again -->
+           
  
             <param name="testNgXslt.outputDir" expression="${report}/reports/" />
  
             <classpath refid="classpath" />
-        </xslt>
+        </xslt>-->
  
         <fail message="ERROR: One or more tests failed! Check test reports " if="test.failed" />
  

@@ -1,2 +1,2 @@
 name	sn	tel	email
-公司	0	0	0
+company	0	0	0

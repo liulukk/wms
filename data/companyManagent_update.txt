@@ -1,2 +1,2 @@
 name	tel	email	address	desc	
-新建1测试公司	14513378193	870461498@qq.com	河北baoding	desc
+newCompany	14513378193	870461498@qq.com	baoding	desc

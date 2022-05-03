@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]">
+  <listeners>
+    <listener class-name="www.ourhouse.testng_xslt.Generate"/>
+  </listeners>
+  <test thread-count="5" name="t2(failed)">
+    <classes>
+      <class name="com.webtest.testCases.LoginTest">
+        <methods>
+          <include name="test_Unit_delete"/>
+          <include name="test_login"/>
+          <include name="test_productCategory_update" invocation-numbers="0"/>
+          <include name="test_companyManagent_search" invocation-numbers="0"/>
+          <include name="test_productCategory_add" invocation-numbers="0"/>
+          <include name="test_strongSpace_delete"/>
+          <include name="test_shelvesManagent_add" invocation-numbers="0"/>
+          <include name="test_warehourse_add" invocation-numbers="0"/>
+          <include name="test_productCategory_delete"/>
+          <include name="test_strongSpace_update" invocation-numbers="0"/>
+          <include name="test_companyManagent_delete"/>
+          <include name="test_Suppliers_add" invocation-numbers="0"/>
+          <include name="test_Suppliers_search" invocation-numbers="0"/>
+          <include name="test_shelvesManagent_delete"/>
+          <include name="test_productManagement_search" invocation-numbers="0"/>
+          <include name="test_shelvesManagent_update" invocation-numbers="0"/>
+          <include name="doBeforeClass"/>
+          <include name="test_warehourse_search" invocation-numbers="0"/>
+          <include name="test_delete_success"/>
+          <include name="test_companyManagent_add" invocation-numbers="0"/>
+          <include name="test_Unit_add" invocation-numbers="0"/>
+          <include name="test_productCategory_search" invocation-numbers="0"/>
+          <include name="test_storageSpace_search" invocation-numbers="0"/>
+          <include name="test_Unit_search" invocation-numbers="0"/>
+          <include name="test_companyManagent_update" invocation-numbers="0"/>
+          <include name="test_Suppliers_update" invocation-numbers="0"/>
+          <include name="test_productManagement_delete"/>
+          <include name="test_storageSpace_add" invocation-numbers="0"/>
+          <include name="test_warehourse_update" invocation-numbers="0"/>
+          <include name="test_Unit_alert" invocation-numbers="0"/>
+          <include name="test_productManagement_add" invocation-numbers="0"/>
+          <include name="test_productManagement_update" invocation-numbers="0"/>
+          <include name="test_Suppliers_delete"/>
+          <include name="test_shelvesManagent_search" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.webtest.testCases.LoginTest -->
+    </classes>
+  </test> <!-- t2(failed) -->
+</suite> <!-- Failed suite [s1] -->

@@ -1,2 +1,2 @@
 name	textarea
-C区	测试_updatec区
+C	test_updatecqu
